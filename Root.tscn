@@ -148,51 +148,51 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="DynamicFontData" id=16]
+[sub_resource type="DynamicFontData" id=7]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=17]
-font_data = SubResource( 16 )
+[sub_resource type="DynamicFont" id=8]
+font_data = SubResource( 7 )
 
-[sub_resource type="DynamicFontData" id=18]
+[sub_resource type="DynamicFontData" id=9]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=19]
-font_data = SubResource( 18 )
+[sub_resource type="DynamicFont" id=10]
+font_data = SubResource( 9 )
 
-[sub_resource type="DynamicFontData" id=20]
+[sub_resource type="DynamicFontData" id=11]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=21]
-font_data = SubResource( 20 )
+[sub_resource type="DynamicFont" id=12]
+font_data = SubResource( 11 )
 
-[sub_resource type="DynamicFontData" id=12]
+[sub_resource type="DynamicFontData" id=13]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=13]
+[sub_resource type="DynamicFont" id=14]
 size = 32
-font_data = SubResource( 12 )
+font_data = SubResource( 13 )
 
-[sub_resource type="DynamicFontData" id=14]
+[sub_resource type="DynamicFontData" id=15]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=15]
-font_data = SubResource( 14 )
+[sub_resource type="DynamicFont" id=16]
+font_data = SubResource( 15 )
 
-[sub_resource type="DynamicFontData" id=8]
+[sub_resource type="DynamicFontData" id=17]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=9]
+[sub_resource type="DynamicFont" id=18]
 size = 32
-font_data = SubResource( 8 )
+font_data = SubResource( 17 )
 
-[sub_resource type="DynamicFontData" id=10]
+[sub_resource type="DynamicFontData" id=19]
 font_path = "res://assets/fonts/OptimusPrinceps.ttf"
 
-[sub_resource type="DynamicFont" id=11]
-font_data = SubResource( 10 )
+[sub_resource type="DynamicFont" id=20]
+font_data = SubResource( 19 )
 
-[sub_resource type="SpriteFrames" id=7]
+[sub_resource type="SpriteFrames" id=21]
 animations = [ {
 "frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 18 ), ExtResource( 11 ) ],
 "loop": true,
@@ -246,7 +246,7 @@ __meta__ = {
 margin_left = 64.0
 margin_right = 160.0
 margin_bottom = 32.0
-custom_fonts/font = SubResource( 17 )
+custom_fonts/font = SubResource( 8 )
 text = "Level:"
 valign = 1
 __meta__ = {
@@ -257,7 +257,7 @@ __meta__ = {
 margin_left = 184.0
 margin_right = 280.0
 margin_bottom = 32.0
-custom_fonts/font = SubResource( 19 )
+custom_fonts/font = SubResource( 10 )
 text = "HP:"
 valign = 1
 __meta__ = {
@@ -268,7 +268,7 @@ __meta__ = {
 margin_left = 288.0
 margin_right = 384.0
 margin_bottom = 32.0
-custom_fonts/font = SubResource( 21 )
+custom_fonts/font = SubResource( 12 )
 text = "Score:"
 valign = 1
 __meta__ = {
@@ -289,7 +289,7 @@ margin_left = 160.0
 margin_top = 96.0
 margin_right = 486.0
 margin_bottom = 131.0
-custom_fonts/font = SubResource( 13 )
+custom_fonts/font = SubResource( 14 )
 text = "VICTORY ACHIEVED"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -300,7 +300,7 @@ margin_left = 280.0
 margin_top = 152.0
 margin_right = 344.0
 margin_bottom = 180.0
-custom_fonts/font = SubResource( 15 )
+custom_fonts/font = SubResource( 16 )
 text = "RESTART"
 
 [node name="Lose" type="ColorRect" parent="CanvasLayer"]
@@ -317,7 +317,7 @@ margin_left = 224.0
 margin_top = 96.0
 margin_right = 381.0
 margin_bottom = 131.0
-custom_fonts/font = SubResource( 9 )
+custom_fonts/font = SubResource( 18 )
 text = "YOU DIED"
 align = 1
 valign = 1
@@ -330,12 +330,12 @@ margin_left = 256.0
 margin_top = 152.0
 margin_right = 320.0
 margin_bottom = 180.0
-custom_fonts/font = SubResource( 11 )
+custom_fonts/font = SubResource( 20 )
 text = "TRY AGAIN"
 
 [node name="DemonEnemy" type="AnimatedSprite" parent="."]
 position = Vector2( -320, 32 )
-frames = SubResource( 7 )
+frames = SubResource( 21 )
 frame = 1
 playing = true
 offset = Vector2( 15, 5 )
